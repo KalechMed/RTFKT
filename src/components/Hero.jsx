@@ -35,8 +35,8 @@ import event from '../assets/event.png';
 
 
 
-
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import '../index.css'
 
 
@@ -44,6 +44,15 @@ import '../index.css'
 
 
 const Hero = () => {
+
+
+  const navigate = useNavigate();
+
+  
+  const handlenextClick = () => {
+    navigate("/About");
+  };
+
   return (
     <div className="relative">
 
@@ -58,10 +67,13 @@ const Hero = () => {
         <a href="/" className="mr-4 px-3">
           Sneakers
         </a>
-        <a href="/" className="mr-2 px-3">
-          About
+        <a className="mr-2 px-3">
+          <a href="/" onClick={(event) => {
+            handlenextClick();
+          }}>About</a>
         </a>
       </div>
+    
 
       
 
@@ -82,6 +94,8 @@ const Hero = () => {
 
 
       <div className="flex flex-wrap gap-4 justify-center z-10 ">
+
+        
         <div>
 
   <div className=" relative group max-w-[470px] rounded-lg overflow-hidden mt-6 ">
@@ -104,6 +118,7 @@ const Hero = () => {
 <div className="flex items-center mt-[-7px]">
 <p className="text-[12px] font-poppins font-light mr-auto">Units: 1776</p>
 <a href="#" className="text-[12px] font-poppins font-light text-blue-500 hover:text-blue-700">Buy on Secondary</a>
+
 </div>
 
   
