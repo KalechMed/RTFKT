@@ -57,12 +57,13 @@ const Hero = () => {
     <div className="relative">
 
       
-       <video className="w-full h-600 mt-[-300px]" src={video} autoPlay  preload="auto" loop controls={false} muted ></video>
-       
-   
+<div className="relative w-full h-600 mt-[-300px]">
+  <video className="w-full h-full object-cover" src={video} autoPlay preload="auto" loop controls={false} muted></video>
+  <button className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-2 text-[12px] text-black font-poppins opacity-85">Forging now</button>
+</div>
   
       <img className="absolute top-5 left-4 w-12 mt-[300px]" src={logo} alt="Logo"/>
-      <button className="absolute  top-[440px] right-[750px] bg-white rounded-[20px] p-2  text-black text-[10px] font-poppins justify-center mt-[300px] opacity-80">Forging now</button>
+      
      
       <div className="absolute top-5 right-4 text-black mt-[300px] font-poppins font-light text-[12.3px] z-10">
         <a href="/" className="mr-4 px-3">
@@ -408,7 +409,7 @@ const Hero = () => {
     <div className="w-1/2">
       <h1 className="text-start text-[16px] font-poppins font-bold ">When is the RTFKT x Nike Air Force 1 Forging Event happening? How long will it last?</h1>
     </div>
-    <div className="w-1/2 flex justify-end">
+    <div className="w-1/2 flex justify-start">
       <h1 className="text-start text-[16px] font-poppins ">The Forging Event will take place between April 24-May 8.</h1>
     </div>
   </div>
