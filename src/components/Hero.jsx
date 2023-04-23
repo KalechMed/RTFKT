@@ -1,5 +1,13 @@
+
+
+import React from 'react';
+import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+import '../index.css'
+
 import logo from '../assets/logo.svg';
 import video from '../assets/video.mp4';
+import mobile from '../assets/heromobile.mp4';
 import img1l from '../assets/1.jpg';
 import img1r from '../assets/1r.jpg';
 import img2l from '../assets/2l.jpg';
@@ -35,15 +43,23 @@ import event from '../assets/event.png';
 
 
 
-import React from 'react';
-import { useNavigate } from "react-router-dom";
-import '../index.css'
-
-
 
 
 
 const Hero = () => {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // set the breakpoint for mobile devices
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
 
   const navigate = useNavigate();
@@ -58,7 +74,14 @@ const Hero = () => {
 
       
 <div className="relative w-full h-600 mt-[-300px]">
-  <video className="w-full h-full object-cover" src={video} autoPlay preload="auto" loop controls={false} muted></video>
+
+{isMobile ? (
+        <video src={mobile} autoPlay preload="auto" loop controls={false} muted />
+      ) : (
+        <video className="w-full h-full object-cover" src={video} autoPlay preload="auto" loop controls={false} muted></video>
+      )}
+
+  
   <button className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-2 text-[12px] text-black font-poppins opacity-85">Forging now</button>
 </div>
   
