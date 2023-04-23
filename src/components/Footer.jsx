@@ -1,67 +1,85 @@
-import styles from "../style";
-import { socialMedia } from "../constants";
-import twitter from '../assets/Twitter.svg';
-import discord from '../assets/discord.svg';
+import React from "react";
+import footerlogo from '../assets/footerlogo.svg';
 
-const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+const Footer = () => {
+  
+    
+    return(
+      
         
-        <p className={`${styles.paragraph} mt-20 max-w-[800px] ml-[70px] font-Inter text-[#F6F6FD] text-[30px]` }>
-          Announcing <span className="text-[#F7931A] font-Inter font-light">#BNStrading</span>  platform 
-          built by the community
-          for the community.
-
-          <div className="mt-16"> #launchsoon #keepminting</div>
-          <div className="mt-2 text-[15px] font-Inter font-light"> Join official Twitter & Discord</div>
-
-          <div className="h-[0.3px] w-[480px] bg-[#F6F6FD] mx-auto opacity-20 mt-2"></div>
-
-          <div className="flex mt-2  ">
-            <div className="w-[20px] mt-1">
-                  <img src={twitter} />
-
-            </div>
-
-            <div className="w-[30px] ml-4">
-                  <img src={discord} />
-
-            </div>
+            
+            
 
 
-                </div>
+<footer class="relative bg-[#2b2b2e] pt-20 pb-6 mt-[70px]">
+  <div class="container mx-auto px-4 ml-[20px]">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
 
-        </p>
-
+        <img src={footerlogo} alt="Logo" className="h-5 mb-5" />
+        <h5 class="text-[14px] mt-0 mb-2 text-[#a8a8a9] font-poppins ">
+        We are a creator led organisation. RTFKT uses the latest in game engines, NFT, blockchain authentication and augmented reality, combined with manufacturing expertise to create one of a kind sneakers and digital artifacts.
+        </h5>
         
       </div>
-
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
         
+            <ul class="list-unstyled text-[16px]">
+              <li>
+                <a class="text-white  font-poppins block pb-2 " href="https://www.creative-tim.com/presentation?ref=njs-profile">Instgram</a>
+              </li>
+              <li>
+                <a class="text-white  font-poppins block pb-2" href="https://blog.creative-tim.com?ref=njs-profile">Discord</a>
+              </li>
+              <li>
+                <a class="text-white  font-poppins block pb-2 " href="https://www.github.com/creativetimofficial?ref=njs-profile">Twitter</a>
+              </li>
+              <li>
+                <a class="text-white 0  font-poppins block pb-2 " href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Youtube</a>
+              </li>
+              <li>
+                <a class="text-white 0  font-poppins block pb-2 " href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Tiktok</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+           
+            <ul class="list-unstyled text-[16px] font-poppins">
+              <li>
+                <a class="text-white   block pb-2 " href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Main Website</a>
+              </li>
+              <li>
+                <a class="text-white   block pb-2 " href="https://creative-tim.com/terms?ref=njs-profile">Privacy policy</a>
+              </li>
+              <li>
+                <a class="text-white   block pb-2 " href="https://creative-tim.com/privacy?ref=njs-profile">Terms of Services</a>
+              </li>
+              <li>
+                <a class="text-white  block pb-2 " href="https://creative-tim.com/contact-us?ref=njs-profile">Legal Overview</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] ml-[70px] text-white">
-        Copyright Ⓒ kalech . All Rights Reserved.
-      </p>
-
-      <div className="flex flex-row md:mt-0 mt-6 mr-10">
-        {socialMedia.map((social, index) => (
-          <img
-            key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
-        ))}
+    <div class="my-6 ">
+    <div class="flex flex-wrap ">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-white font-light py-1 w-[450px]">
+        RTFKT is a registered trademark of RTFKT Inc. All Rights Reserved. RTFKT All logos are registered trademarks of their respective owners. All<span id="get-current-year">2021</span><div href="https://www.creative-tim.com/product/notus-js" class="text-white " target="_blank"> contents of this document, unless otherwise credited, are copyright © 2023 RTFKT Inc.
+          
+        </div>
       </div>
     </div>
-  </section>
-);
+  </div>
+  </div>
+  </div>
 
+</footer>
+
+      
+    )
+}
 export default Footer;

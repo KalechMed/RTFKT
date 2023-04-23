@@ -157,3 +157,137 @@ a:hover:after {
   background-color: black;
 }
 
+/* footer start */
+
+._footer_wrapper {
+  background: #101010;
+}
+
+._footer_wrap {
+  padding: 60px 0 120px;
+}
+
+._footer_left_logo {
+  max-width: 80px;
+}
+
+._footer_left_txt {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+._footer_left_ic_wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+._footer_left_ic_item {
+  margin-right: 20px;
+}
+
+._footer_list_head {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.23819px;
+  color: #ffffff;
+}
+
+._footer_list_link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: -0.23819px;
+  color: #bbbbbb;
+}
+
+._footer_list_link:hover {
+  color: #fff;
+}
+
+._footer_list_item {
+  margin: 15px 0;
+}
+
+._footer_left_email_wrap {
+  margin-top: 30px;
+}
+
+._footer_left_email_title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+._footer_left_email_main_wrap {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+._footer_left_email_in {
+  background: transparent;
+  border: 1px solid #4e12f7;
+  padding: 10px 5px 10px 10px;
+  flex: 0 0 60%;
+  color: #fff;
+}
+
+._footer_left_email_in::placeholder {
+  font-size: 15px;
+  color: #fff;
+}
+
+.subemail_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 12px 40px;
+  background: linear-gradient(94.25deg,
+      #4e12f7 0%,
+      #c87bbf 123.04%,
+      #ebc7c9 241.07%);
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (max-width: 1600px) {}
+
+@media (max-width: 1440px) {}
+
+@media only screen and (max-width: 1399px) {}
+
+/* Desktop/Laptop */
+@media only screen and (max-width: 1199px) {}
+
+/* Ipad pro */
+@media only screen and (max-width: 991px) {}
+
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile */
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 420px) {}
+
+@media only screen and (max-width: 375px) {}
+
+/* footer ends */
+
+
+
+
