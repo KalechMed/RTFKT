@@ -22,25 +22,25 @@ const Footer = () => {
         </h5>
         
       </div>
-      <div class="w-full lg:w-6/12 px-4">
-        <div class="flex flex-wrap items-top mb-6">
-          <div class="w-full lg:w-4/12 px-4 ml-auto">
+      <div class="w-full ml-[184px] lg:w-[400px] px-4 ">
+        <div class="flex flex-wrap items-top mb-6 ml-[40px]">
+          <div class="w-full lg:w-auto px-4 ml-auto">
         
             <ul class="list-unstyled text-[16px]">
               <li>
-                <a class="text-white  font-poppins block pb-2 " href="https://www.creative-tim.com/presentation?ref=njs-profile">Instgram</a>
+                <a class="text-white  font-poppins block pb-2 " href="https://www.instagram.com/rtfkt/">Instgram</a>
               </li>
               <li>
-                <a class="text-white  font-poppins block pb-2" href="https://blog.creative-tim.com?ref=njs-profile">Discord</a>
+                <a class="text-white  font-poppins block pb-2" href="https://discord.com/invite/rtfkt">Discord</a>
               </li>
               <li>
-                <a class="text-white  font-poppins block pb-2 " href="https://www.github.com/creativetimofficial?ref=njs-profile">Twitter</a>
+                <a class="text-white  font-poppins block pb-2 " href="https://twitter.com/RTFKT">Twitter</a>
               </li>
               <li>
-                <a class="text-white 0  font-poppins block pb-2 " href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Youtube</a>
+                <a class="text-white 0  font-poppins block pb-2 " href="https://www.youtube.com/channel/UCVc5Bwg8Fs8ZrzBLeB09ZdA">Youtube</a>
               </li>
               <li>
-                <a class="text-white 0  font-poppins block pb-2 " href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Tiktok</a>
+                <a class="text-white 0  font-poppins block pb-2 " href="https://www.tiktok.com/@rtfkt">Tiktok</a>
               </li>
             </ul>
           </div>
@@ -48,16 +48,16 @@ const Footer = () => {
            
             <ul class="list-unstyled text-[16px] font-poppins">
               <li>
-                <a class="text-white   block pb-2 " href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">Main Website</a>
+                <a class="text-white   block pb-2 " href="">Main Website</a>
               </li>
               <li>
-                <a class="text-white   block pb-2 " href="https://creative-tim.com/terms?ref=njs-profile">Privacy policy</a>
+                <a class="text-white   block pb-2 " href="https://rtfkt.com/privacy">Privacy policy</a>
               </li>
               <li>
-                <a class="text-white   block pb-2 " href="https://creative-tim.com/privacy?ref=njs-profile">Terms of Services</a>
+                <a class="text-white   block pb-2 " href="https://rtfkt.com/tos">Terms of Services</a>
               </li>
               <li>
-                <a class="text-white  block pb-2 " href="https://creative-tim.com/contact-us?ref=njs-profile">Legal Overview</a>
+                <a class="text-white  block pb-2 " href="https://rtfkt.com/legal-overview">Legal Overview</a>
               </li>
             </ul>
           </div>
