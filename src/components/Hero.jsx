@@ -97,9 +97,11 @@ const Hero = () => {
       )}
 
   
-<button className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-3 text-[12px] text-black font-poppins opacity-85 hover:bg-black hover:text-white h-[43px] w-[130px]">
-  Forging now
-</button>
+<button className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-3 text-[18px] text-black font-poppins opacity-85 hover:bg-black hover:text-white h-[70px] w-[300px]">
+FORGING NOW <br />
+Connect Wallet
+
+   </button>
 </div>
   
       <img className="absolute top-5 left-4 w-12 mt-[300px]" src={logo} alt="Logo"/>
