@@ -58,7 +58,11 @@ const Hero = () => {
 
       
        <video className="w-full h-600 mt-[-300px]" src={video} autoPlay  preload="auto" loop controls={false} muted ></video>
+       
+   
+  
       <img className="absolute top-5 left-4 w-12 mt-[300px]" src={logo} alt="Logo"/>
+      <button className="absolute  top-[440px] right-[750px] bg-white rounded-[20px] p-2  text-black text-[10px] font-poppins justify-center mt-[300px] opacity-80">Forging now</button>
      
       <div className="absolute top-5 right-4 text-black mt-[300px] font-poppins font-light text-[12.3px] z-10">
         <a href="/" className="mr-4 px-3">
@@ -380,16 +384,105 @@ const Hero = () => {
 
 
   
+
+</div>
+
+<div className='mt-[100px] ml-[30px]'>
+<div class="text-left ">
+  <p class="text-lg font-poppins font-bold">FREQUENTLY ASKED QUESTIONS</p>
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+  </div>   
   
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">What are Forging events?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">During Forging events, holders of eligible digital collectibles can redeem for limited made-to-order physical products. Forging events last for a limited time, so always check for dates and set reminders.</h1>
+    </div>
+  </div>
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">When is the RTFKT x Nike Air Force 1 Forging Event happening? How long will it last?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">The Forging Event will take place between April 24-May 8.</h1>
+    </div>
+  </div>
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">Where can I view the 10 designs?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">You can discover the unique designs of the RTFKT x Nike Air Force 1 collection on the lookbook and our social accounts. https://af1-lookbook.rtfkt.com</h1>
+    </div>
+  </div>
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
   
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">Can I still get the digital collectibles so I can partake in the Forging Event?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">Yes, the Pre-Forging event collection is available on OpenSea and other secondary marketplaces. If you purchase the digital collectible and participate in the Forging event you will be able to redeem your physical sneakers on RTFKT.com. The OpenSea link is: OpenSea Collection</h1>
+    </div>
+  </div>
+
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+  
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">Is there a cost to participate in the Forging event?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">The RTFKT x Nike Air Force 1 digital collectibles have already been minted at a price, thus holders will only have to pay gas fees for the transactions during the Forging event. If, however, you do not currently own a digital collectible from the above mentioned OpenSea Pre-Forge collection, then you will need to buy a pair on OpenSea, or on another secondary marketplace, to be eligible for the Forging event.</h1>
+    </div>
+  </div>
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+  
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">Where will the Forging event take place?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">The Forging event will take place on https://rtfkt.com. Please watch out for scams and phishing websites. Only access the Forging site from our official Twitter and Discord channels, or from our website https://rtfkt.com</h1>
+    </div>
+  </div>
+
+  <div class="border-b border-dashed border-black w-full mb-3 mt-4"></div>
+  
+  <div className="flex items-center">
+    <div className="w-1/2">
+      <h1 className="text-start text-[16px] font-poppins font-bold ">If I want to directly mint off the smart contract, will I still be able to receive the physical sneakers?</h1>
+    </div>
+    <div className="w-1/2 flex justify-end">
+      <h1 className="text-start text-[16px] font-poppins ">During Forging events, holders of eligible digital collectibles can redeem for limited made-to-order physical products. Forging events last for a limited time, so always check for dates and set reminders.</h1>
+    </div>
+  </div>
+
+
 
 </div>
 
 
-      
 
-      
-    </div>
+
+
+
+
+
+
+    </div> 
+
     
     
     
