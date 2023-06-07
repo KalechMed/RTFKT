@@ -97,8 +97,7 @@ const Hero = () => {
       )}
 
   
-<button className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-3 text-[18px] text-black font-poppins opacity-85 hover:bg-black hover:text-white h-[70px] w-[300px]">
-FORGING NOW <br />
+<button className="absolute  bottom-0 left-1/2 transform -translate-x-1/2 mb-8 bg-white rounded-[20px] p-3 text-[13px] text-black font-poppins opacity-85 hover:bg-black hover:text-white h-[40px] w-[200px]">
 Connect Wallet
 
    </button>
